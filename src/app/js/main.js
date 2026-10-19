@@ -1,5 +1,3 @@
-function sayHello() {
-   alert("java is here");
-}
-
-sayHello();
+document.addEventListener('DOMContentLoaded', () => {
+    sayHello();
+});

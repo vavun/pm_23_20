@@ -2,14 +2,22 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>gulp test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pm_23_20 — Gulp</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     @@include('components/header.html')
-    <main>
+
+    <main class="main">
         <p>main text</p>
+        <div class="image-box">
+            <!-- Шлях вказуємо відносно папки dist -->
+            <img src="imgs/PngItem_274457.png" alt="Ілюстрація">
+        </div>
     </main>
+
+    @@include('components/footer.html')
 
     <script src="js/main.js"></script>
 </body>

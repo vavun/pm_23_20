@@ -1,14 +1,28 @@
 $bg-color: rgba(247, 75, 247, 0.467);
 $text-color: rgb(118, 118, 204);
+$accent-color: rgb(228, 76, 50);
+$spacing: 20px;
 
 body {
+    margin: 0;
     background-color: $bg-color;
     color: $text-color;
     font-family: sans-serif;
+}
 
-    .header {
-        background-color: rgb(228, 76, 50);
-        padding: 20px;
-        color: white;
-    }
+.header,
+.footer {
+    background-color: $accent-color;
+    padding: $spacing;
+    color: white;
+}
+
+.main {
+    padding: $spacing;
+}
+
+.image-box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
