@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vavun/-pm_23_20.git"
+    "url": "git+https://github.com/vavun/pm_23_20.git"
   },
   "keywords": [],
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/vavun/-pm_23_20/issues"
+    "url": "https://github.com/vavun/pm_23_20/issues"
   },
-  "homepage": "https://github.com/vavun/-pm_23_20#readme",
+  "homepage": "https://github.com/vavun/pm_23_20#readme",
   "devDependencies": {
     "browser-sync": "^3.0.4",
     "gulp": "^5.0.1",
